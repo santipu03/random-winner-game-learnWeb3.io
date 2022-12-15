@@ -7,7 +7,12 @@
   font-family: "Courier New", Courier, monospace;
 }
 
+.leftSection {
+  margin: 5rem;
+}
+
 .footer {
+  font-family: "Courier New", Courier, monospace;
   display: flex;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
@@ -18,7 +23,7 @@
 .input {
   width: 200px;
   height: 100%;
-  padding: 1%;
+  padding: 2%;
   margin: 2%;
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
@@ -52,11 +57,10 @@
   background-color: blue;
   border: none;
   color: #ffffff;
-  font-size: 15px;
-  padding: 8px;
+  padding: 2%;
   width: 200px;
   cursor: pointer;
-  margin: 2rem 1rem;
+  margin: 2%;
 }
 @media (max-width: 1000px) {
   .main {

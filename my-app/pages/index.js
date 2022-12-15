@@ -315,7 +315,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
-        <div>
+        <div className={styles.leftSection}>
           <h1 className={styles.title}>Welcome to Random Winner Game!</h1>
           <div className={styles.description}>
             Its a lottery game where a winner is chosen at random and wins the
